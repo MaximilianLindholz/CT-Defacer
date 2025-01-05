@@ -1,6 +1,6 @@
 # 🚀 Defacing CT Scans Using TotalSegmentator
 
-In this repository, we present the tested (see our paper) solution for **defacing CT scans** using the **TotalSegmentator**. This approach has been validated to effectively remove facial features from head CT scans, ensuring **anonymization** and preventing re-identification.
+In this repository, we present the tested (see our paper) solution for **defacing CT scans** using the **TotalSegmentator**. This approach has been validated to effectively remove facial features from head CT scans, ensuring **anonymization** and preventing re-identification. It should also work just fine on any available CT scan (such as whole body or when only parts of the head are included, as long as the **TotalSegmentator** recognizes a face, if you find unexpected behaviour, let us know :) 
 
 If you use any of the code or are interested in the defacing process, please read and/or cite our paper, as well as the original **TotalSegmentator** paper:
 
