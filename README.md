@@ -3,9 +3,18 @@
 This repository contains the code we used in our paper on defacing CT scans using the TotalSegmentator (v2.4.0). We tested its effectiveness in removing identifiable facial features, and it does 😊!
 
 ## How To:
-1. First get a non-commercial [license](https://backend.totalsegmentator.com/license-academic/) for the TotalSegmentator and check the [documentation](https://github.com/wasserth/TotalSegmentator)
-2. Activate the license by running the command you recieve in the console (with your environment activated) (looks something like this: totalseg_set_license -l aca_XXXXXXXXX)
-3. 
+1. First, get a non-commercial [license](https://backend.totalsegmentator.com/license-academic/) for the TotalSegmentator and check the [documentation](https://github.com/wasserth/TotalSegmentator).
+2. Activate the license by running the command you receive in the console (with your environment activated). The command will look something like this:
+
+```bash
+totalseg_set_license -l aca_XXXXXXXXX
+
+3. Install the requirements.txt (we tested it with Python 3.10.15)
+4. Python totaldeface.py
+```bash
+python totaldeface.py --input_dir  --output_dir --totalsegmentator_licence
+
+// If you don't add an input and output path we added an example from TCIA to showcase it and it should automatically download :)
 
 ## Bulky masks, are good masks (most of the time) :) 
 For effective defacing, face masks should be bulky, not fine or detailed, to avoid re-identification. Sharp masks can be "refaced" if the mask can be differentiated from the normal CT background (including noise). The green mask is from the TotalSegmentator, and the red one from the [CTA-DEFACE model](https://github.com/CCI-Bonn/CTA-DEFACE).
