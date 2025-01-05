@@ -3,7 +3,7 @@
 This repository contains the code we used in our paper on defacing CT scans using the TotalSegmentator (v2.4.0). We tested its effectiveness in removing identifiable facial features, and it does 😊!
 
 ## How To:
-I. First get a non-commercial license for the TotalSegmentator (if you dont already have it, its free and takes no time: [GitHub repository](https://github.com/wasserth/TotalSegmentator).)
+I. First get a non-commercial license for the TotalSegmentator ([License](https://backend.totalsegmentator.com/license-academic/) and check the TotalSegmentator [Repository](https://github.com/wasserth/TotalSegmentator)
 II. 
 
 ## Bulky masks, are good masks (most of the time) :) 
