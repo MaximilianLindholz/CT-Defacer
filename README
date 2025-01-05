@@ -1,14 +1,14 @@
-Defacing CT Scans Using TotalSegmentator
+## Defacing CT Scans Using TotalSegmentator
 
-In this repository, we present the tested (see our paper) solution for **defacing CT scans** using the **TotalSegmentator**. This approach has been validated to effectively remove facial features from head CT scans, ensuring **anonymization** and preventing re-identification.
+In this repository, we present the tested (see our paper) solution for defacing CT scans using the TotalSegmentator. This approach has been validated to effectively remove facial features from head CT scans, ensuring anonymization and preventing re-identification.
 
-If you use any of the code or are interested in the defacing process, please read and/or cite our paper, as well as the original **TotalSegmentator** paper:
+If you use any of the code or are interested in the defacing process, please read and/or cite our paper, as well as the original TotalSegmentator paper:
 
-Citation (APA)
+### Citation (APA)
 
-Lindholz, M., Ruppel, R., Schulze-Weddige, S., Baumgärtner, G. L., Schobert, I., Panten, A., ... & Penzkofer, T. (2025). Analyzing the TotalSegmentator for facial feature removal in head CT scans. *Radiography, 31*(1), 372-378.
+Lindholz, M., Ruppel, R., Schulze-Weddige, S., Baumgärtner, G. L., Schobert, I., Panten, A., ... & Penzkofer, T. (2025). Analyzing the TotalSegmentator for facial feature removal in head CT scans. Radiography, 31(1), 372-378.
 
-DOI
+### DOI
 https://doi.org/10.1016/j.radi.2024.12.018
 
 ---
