@@ -17,7 +17,7 @@ If you use any of the code or are interested in the defacing process, please rea
 ```shell
 Lindholz, M., Ruppel, R., Schulze-Weddige, S., Baumgärtner, G. L., Schobert, I., Panten, A., ... & Penzkofer, T. (2025). Analyzing the TotalSegmentator for facial feature removal in head CT scans. *Radiography, 31*(1), 372-378.
 ```
-### 📚 DOI
-[DOI/Link to Paper](https://doi.org/10.1016/j.radi.2024.12.018)
+### 📚 Link to paper :) 
+[Check our paper :)](https://doi.org/10.1016/j.radi.2024.12.018)
 
 ---
