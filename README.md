@@ -6,9 +6,10 @@ The provided code should work well with a variety of CT scans, including whole-b
 
 One key finding from our work is that for effective defacing, it’s crucial that the face masks are not too fine. Masks that are too detailed or sharp can sometimes be easily “refaced” in the same way as unmodified scans using 3D Slicer or any other 3D rendering tool. We recommend using masks that are more bulky and blurry to ensure better anonymization.
 
+<img width="793" alt="Bildschirmfoto 2025-01-05 um 21 01 08" src="https://github.com/user-attachments/assets/9070ac8e-f6b7-4233-b5fc-d5a64327c804" />
 
 
-If newer versions of the TotalSegmentator generate finer face masks, we advise using the version we tested here (as specified in requirements.txt) to avoid any issues.
+CAVE: If newer versions of the TotalSegmentator generate finer face masks, we advise using the version we tested here (as specified in requirements.txt) to avoid any issues.
 
 
 If you use any of the code or are interested in the defacing process, please read and/or cite our paper, as well as the original **TotalSegmentator** paper:
