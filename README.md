@@ -8,11 +8,13 @@ This repository contains the code we used in our paper on defacing CT scans usin
 
 ```bash
 totalseg_set_license -l aca_XXXXXXXXX
+```
 
 3. Install the requirements.txt (we tested it with Python 3.10.15)
 4. Python totaldeface.py
 ```bash
 python totaldeface.py --input_dir  --output_dir --totalsegmentator_licence
+```
 
 // If you don't add an input and output path we added an example from TCIA to showcase it and it should automatically download :)
 
