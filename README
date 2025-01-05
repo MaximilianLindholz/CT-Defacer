@@ -2,7 +2,7 @@
 
 In this repository, we present the tested (see our paper) solution for **defacing CT scans** using the **TotalSegmentator**. This approach has been validated to effectively remove facial features from head CT scans, ensuring **anonymization** and preventing re-identification.
 
-If you use any of the code or are interested in the defacing process, please read and or cite our paper and the original TotalSegmentator paper:
+If you use any of the code or are interested in the defacing process, please read and/or cite our paper, as well as the original **TotalSegmentator** paper:
 
 ### 📚 Citation (APA)
 
@@ -10,7 +10,7 @@ Lindholz, M., Ruppel, R., Schulze-Weddige, S., Baumgärtner, G. L., Schobert, I.
 
 ### 📚 DOI
 
-https://doi.org/10.1016/j.radi.2024.12.018
+[https://doi.org/10.1016/j.radi.2024.12.018](https://doi.org/10.1016/j.radi.2024.12.018)
 
 ---
 
@@ -19,4 +19,4 @@ https://doi.org/10.1016/j.radi.2024.12.018
 We will also be adding additional tools and code to this repository that we found useful in our day-to-day work, including:
 - **OCR for removing burned-in DICOM annotations** 📝
 - More **privacy-preserving utilities** to enhance the anonymization of medical imaging data
-- And other useful features that improve CT scan processing and anonymization 💻
+- Other useful features that improve CT scan processing and anonymization 💻
